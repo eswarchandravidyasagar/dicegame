@@ -1,7 +1,7 @@
 
 var randomNumber1 = Math.floor(Math.random()*6) + 1;
 var randomDiceImage =  "dice"+ randomNumber1 + ".png" // doce 1 to dice 6 png  w e are assigning the java script code to the html images
-var randomImageSource = "images/"+ randomDiceImage; // we will get dice one to dice 6 images by this code
+var randomImageSource = "dice"+ randomDiceImage; // we will get dice one to dice 6 images by this code
 
 var image1 = document.querySelectorAll("img")[0];
 
@@ -9,7 +9,7 @@ var image1 = document.querySelectorAll("img")[0];
 
  var randomNumber2 =Math.floor(Math.random()*6)+1;
 
- var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
+ var randomImageSource2 = "dice" + randomNumber2 + ".png";
 
  document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
