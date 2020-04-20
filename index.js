@@ -5,7 +5,7 @@ var randomImageSource = "dice"+ randomDiceImage; // we will get dice one to dice
 
 var image1 = document.querySelectorAll("img")[0];
 
- image1.setAttribute("src", randomImage);
+ image1.setAttribute("src", randomDiceImage);
 
  var randomNumber2 =Math.floor(Math.random()*6)+1;
 
