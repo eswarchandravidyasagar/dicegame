@@ -24,4 +24,13 @@ var image1 = document.querySelectorAll("img")[0];
 else {
   document.querySelector("h1").innerHTML="Draw!!"
 }
+const refreshButton = document.querySelector('.refresh-button');
 
+const refreshPage = () => {
+  location.reload();
+}
+
+refreshButton.addEventListener('click', refreshPage)
+.demo-image {
+  display: block;
+}
