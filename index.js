@@ -24,4 +24,9 @@ var image1 = document.querySelectorAll("img")[0];
 else {
   document.querySelector("h1").innerHTML="Draw!!"
 }
+var button=document.querySelector("button");
+undefined
+function refresh(){location.reload();}
+undefined
+button.onclick="refresh()";
 
