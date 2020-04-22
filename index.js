@@ -26,5 +26,5 @@ else {
 }
 var button=document.querySelector("button");
 function refresh(){location.reload();}
-button.onclick="refresh()";
+button.onclick=refresh();
 
